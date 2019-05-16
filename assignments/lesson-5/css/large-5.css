@@ -49,7 +49,7 @@ header h2 {
 
 #menu {
     text-align: center;
-    border: 2px solid #E84A5F;
+    border: 10px solid #E84A5F;
 }
 
 main h2 {
@@ -58,19 +58,18 @@ main h2 {
     text-align: center;
 }
 
-#trouble {
- 
-}
-
 #doubletrouble {
+    float: left;
+    width: 30%;
     background-color: #14B2A1;
-    color: ghostwhite;
+    color: #E84A5F;
    
 }
 hr {
     visibility: hidden;
 }
 .tripletrouble {
+    grid-row: span 2;
     width: 100%;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Burning_Yellow_Sunset.jpg");
 }
