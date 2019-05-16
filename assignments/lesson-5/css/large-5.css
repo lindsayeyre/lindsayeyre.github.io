@@ -1,6 +1,4 @@
 body {
-    display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(0, 1fr));
     background-color: #fecea8;
     font-family: fantasy;
 }
@@ -18,6 +16,7 @@ a {
 }
 
 header {
+    width: 100%;
 	background-color: #14B2A1;
 }
 
