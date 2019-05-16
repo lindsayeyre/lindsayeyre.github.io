@@ -59,8 +59,7 @@ main h2 {
 }
 
 .trouble {
-    grid-column: span 3;
-    grid-row: span 2;
+    grid-column: span 2;
 }
 #doubletrouble {
     float: left;
