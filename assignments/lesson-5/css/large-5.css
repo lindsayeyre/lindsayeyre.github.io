@@ -23,8 +23,9 @@ header {
 }
 
 header img {
-   float: left;
-   margin-left: 10%; 
+   /*float: left;*/
+   margin-left: 10%;
+   margin-top: 5%; 
    width: 10%;
    height: 10%;
 }
