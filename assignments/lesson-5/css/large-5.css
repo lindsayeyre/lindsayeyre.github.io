@@ -57,11 +57,11 @@ main h2 {
 }
 
 #flex {
-    display: flex;
-    justify-content: space-between;
+    display: block;
 }
 
 .tripletrouble article {
+    float: left;
     width: 30%;
     height: 30%;
     background-color: #14B2A1;
