@@ -52,6 +52,7 @@ header h2 {
 #menu {
     text-align: center;
     border: 10px solid #E84A5F;
+    grid-column: span 3;
 }
 
 main h2 {
@@ -61,8 +62,7 @@ main h2 {
 }
 
 #trouble {
-    height: auto; 
-    max-width:100%;
+    grid-column: span 3;
 }
 
 #doubletrouble {
