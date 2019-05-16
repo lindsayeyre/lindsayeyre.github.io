@@ -58,6 +58,10 @@ main h2 {
     text-align: center;
 }
 
+.trouble {
+    width: 100%;
+    grid-row: span 2;
+}
 #doubletrouble {
     float: left;
     width: 30%;
