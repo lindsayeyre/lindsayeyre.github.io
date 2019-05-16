@@ -56,6 +56,11 @@ main h2 {
     text-align: center;
 }
 
+.tripletrouble {
+    display: flex;
+    justify-content: left;
+}
+
 .tripletrouble article {
     float: left;
     width: 30%;
