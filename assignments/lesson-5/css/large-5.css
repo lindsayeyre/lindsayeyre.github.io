@@ -57,11 +57,12 @@ main h2 {
 }
 
 #reallyflex {
-    width: 30%;
-    height: 30%;
     background-color: #14B2A1;
-    color: #E84A5F
-    
+    color: ghostwhite;
+    width: 75%;
+    height: 60%;
+    padding-top:1px;
+    padding-left:10px;   
 }
 
 #flex {
