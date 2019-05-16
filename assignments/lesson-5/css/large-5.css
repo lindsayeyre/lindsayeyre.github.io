@@ -56,19 +56,6 @@ main h2 {
     text-align: center;
 }
 
-#trouble {
-    grid-column: stretch;
-}
-
-.tripletrouble {
-    display: grid;
-}
-
-.floatleft {
-    float: left;
-    padding-right: 5px;
-    padding-bottom 1px;
-}
 .tripletrouble article {
     float: left;
     width: 30%;
