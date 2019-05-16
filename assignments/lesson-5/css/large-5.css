@@ -1,7 +1,5 @@
 body {  
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     background-color: #fecea8;
     font-family: fantasy;
     grid-row-gap: 0;
@@ -22,8 +20,6 @@ a {
 header {
     width: 100%;
     background-color: #14B2A1;
-    grid-column: span 3;
-    grid-row: span 2; 
 }
 
 header img {
@@ -52,7 +48,6 @@ header h2 {
 #menu {
     text-align: center;
     border: 10px solid #E84A5F;
-    grid-column: span 3;
 }
 
 main h2 {
@@ -62,7 +57,7 @@ main h2 {
 }
 
 #trouble {
-    grid-column: span 3;
+    grid-column: stretch;
 }
 
 #doubletrouble {
@@ -76,7 +71,6 @@ hr {
     visibility: hidden;
 }
 .tripletrouble {
-    grid-row: span 2;
     width: 3fr;
     /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Burning_Yellow_Sunset.jpg");*/
 }
