@@ -21,7 +21,7 @@ a {
 header {
     width: 100%;
     background-color: #14B2A1;
-    grid-row: span 
+    grid-row: span 2; 
 }
 
 header img {
