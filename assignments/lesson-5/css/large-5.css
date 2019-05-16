@@ -3,6 +3,7 @@ body {
     grid-template-columns: (1fr 1fr 1fr);
     background-color: #fecea8;
     font-family: fantasy;
+    grid-gap: 0;
 }
 
 ul {
@@ -32,11 +33,6 @@ header img {
    height: 20%;
 }
 
-header nav {
-    
-    
-}
-
 header h1 {
     font-size: 5em;
     color: #2A363B;
@@ -48,11 +44,12 @@ header h2 {
     font-size: 2.5em;
     color: #fecea8;
     text-align: center;
-    margin-top: -5%;
+    margin-top: -4%;
 }
 
 #menu {
     text-align: center;
+    border: 2px;
 }
 
 main h1 {
