@@ -61,13 +61,18 @@ main h2 {
 }
 
 .tripletrouble {
-    display: block;
+    display: grid;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 5px;
+    padding-bottom 1px;
 }
 .tripletrouble article {
     float: left;
     width: 30%;
     height: 30%;
-    margin-top: -30%;
     background-color: #14B2A1;
     color: #E84A5F;
    
