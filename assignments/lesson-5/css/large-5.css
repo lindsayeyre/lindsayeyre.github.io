@@ -61,7 +61,7 @@ main h2 {
 }
 
 .tripletrouble article {
-    float: left;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7c/SandiaMtnNM.jpg");
     width: 30%;
     height: 30%;
     background-color: #14B2A1;
