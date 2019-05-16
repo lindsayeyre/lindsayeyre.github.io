@@ -1,5 +1,6 @@
 body {
     display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     background-color: #fecea8;
     font-family: fantasy;
 }
