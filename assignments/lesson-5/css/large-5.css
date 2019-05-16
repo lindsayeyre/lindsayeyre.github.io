@@ -1,4 +1,5 @@
-body {
+body {  
+    display: grid;
     background-color: #fecea8;
     font-family: fantasy;
 }
