@@ -18,14 +18,15 @@ a {
 
 header {
     width: 100%;
-	background-color: #14B2A1;
+    background-color: #14B2A1;
+    grid-row: span 2;
 }
 
 header img {
    float: left;
    margin-left: 10%; 
-   width: 5%;
-   height: 5%;
+   width: 10%;
+   height: 10%;
 }
 
 header nav {
