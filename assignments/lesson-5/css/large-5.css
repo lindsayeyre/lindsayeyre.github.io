@@ -40,6 +40,7 @@ header nav {
 header h1 {
     font-size: 3em;
     color: #2A363B;
+    margin-right: 5%;
     align-content: center;
     font-family: fantasy;
 }
