@@ -1,6 +1,7 @@
 body {  
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(16, 1fr);
     background-color: #fecea8;
     font-family: fantasy;
     grid-row-gap: 0;
@@ -21,6 +22,7 @@ a {
 header {
     width: 100%;
     background-color: #14B2A1;
+    grid-column: span 3;
     grid-row: span 2; 
 }
 
