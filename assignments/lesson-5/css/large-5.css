@@ -1,5 +1,6 @@
 body {  
     display: grid;
+    /*grid-template-columns: (1fr 1fr 1fr);*/
     background-color: #fecea8;
     font-family: fantasy;
 }
@@ -23,7 +24,7 @@ header {
 }
 
 header img {
-   /*float: left;*/
+   float: left;
    margin-left: 10%;
    margin-top: 5%; 
    width: 20%;
