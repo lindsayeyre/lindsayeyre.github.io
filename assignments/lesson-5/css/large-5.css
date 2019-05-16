@@ -42,7 +42,7 @@ header h1 {
     color: #2A363B;
     font-family: fantasy;
     text-align: center;
-    justify-content: center;
+    margin-top: 10%;
 }
 header h2 {
     font-size: 25px;
