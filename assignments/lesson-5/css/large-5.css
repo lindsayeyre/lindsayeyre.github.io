@@ -60,7 +60,6 @@ main h2 {
 
 .trouble {
     width: 100%;
-    grid-row: span 2;
 }
 #doubletrouble {
     float: left;
