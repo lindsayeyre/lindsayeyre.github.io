@@ -6,6 +6,7 @@ body {
 }
 
 ul {
+    grid-row: span 2;
     list-style-type: none;
     background-color:#FF847C;
     color: #2A363B;
@@ -20,12 +21,16 @@ a {
 }
 
 header {
+    grid-row: span 3;
 	background-color: #14B2A1;
 }
 
 header img {
-   
-
+   float: left;
+   margin-left: 10%;
+   margin-top: 10%; 
+   width: 25%;
+   grid-row: span 1;
 }
 
 header nav {
