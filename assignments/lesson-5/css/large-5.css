@@ -49,10 +49,10 @@ header h2 {
 
 #menu {
     text-align: center;
-    border: 2px;
+    border: 2px solid #E84A5F;
 }
 
-main h1 {
+main h2 {
     color: #2A363B;
     font-size: 40px;
     text-align: center;
