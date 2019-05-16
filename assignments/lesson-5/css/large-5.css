@@ -62,7 +62,6 @@ main h2 {
 }
 
 .tripletrouble article {
-    order: -1;
     width: 30%;
     height: 30%;
     background-color: #14B2A1;
@@ -73,6 +72,7 @@ hr {
     visibility: hidden;
 }
 .tripletrouble img {
+    order: -1;
     width: 100%;
     /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Burning_Yellow_Sunset.jpg");*/
 }
