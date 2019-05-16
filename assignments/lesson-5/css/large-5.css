@@ -3,7 +3,7 @@ body {
     grid-template-columns: (1fr 1fr 1fr);
     background-color: #fecea8;
     font-family: fantasy;
-    grid-gap: 0;
+    grid-row-gap: 0;
 }
 
 ul {
@@ -58,9 +58,10 @@ main h2 {
     text-align: center;
 }
 
-.trouble {
-    width: 500px;
+#trouble {
+    width: 100%;
 }
+
 #doubletrouble {
     float: left;
     width: 30%;
@@ -84,7 +85,6 @@ hr {
 }
 #art img {
     width: 100%;
-    
 }
 
 footer {
