@@ -2,7 +2,7 @@ body {
     display: grid;
     background-color: #fecea8;
     font-family: fantasy;
-    grid-row-gap: 0;
+    gap: 0;
 }
 
 ul {
@@ -66,6 +66,8 @@ main h2 {
 .tripletrouble article {
     float: left;
     width: 30%;
+    height: 30%;
+    margin-top: 50%;
     background-color: #14B2A1;
     color: #E84A5F;
    
