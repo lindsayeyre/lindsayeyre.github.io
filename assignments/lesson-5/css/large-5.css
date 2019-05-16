@@ -1,0 +1,133 @@
+body {
+    display: grid;
+    grid-template-rows: repeat(17, 1fr);
+    background-color: #fecea8;
+    font-family: fantasy;
+}
+
+ul {
+    list-style-type: none;
+    background-color:#FF847C;
+    color: #2A363B;
+    margin: 10px;
+    display: block;
+    padding: 8px 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+	width: 100%;
+	background-color: #14B2A1;
+	/* border: 10px solid #E84A5F; */
+	/* margin-bottom: 0; */
+	display: inline-block;
+	/* flex-wrap: wrap; */
+	margin-bottom: -75%;
+}
+
+header img {
+    width: 120px;
+    /* height: 120px; */
+    position: absolute;
+    /* top:25px; */
+    /* left:40px; */
+}
+
+header nav {
+    position: center;
+    
+}
+
+header h1 {
+    font-size: 3em;
+    color: #2A363B;
+    text-align: center;
+    margin-left: 10%;
+    font-family: fantasy;
+}
+header h2 {
+    font-size: 25px;
+    color: #fecea8;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#menu {
+    /* border-top: 0; */
+    margin-top: 1.3em;
+    /* padding-top: 0; */
+    text-align: center;
+}
+
+main h1 {
+    color: #2A363B;
+    font-size: 40px;
+    text-align: center;
+}
+
+#trouble {
+    width: 1100px;
+    height: 450px;
+}
+
+#doubletrouble {
+    background-color: #14B2A1;
+    color: ghostwhite;
+    width: 75%;
+    height: 60%;
+    padding-top:1px;
+    padding-left:10px;
+    /* margin-left: 25px; */
+}
+hr {
+    height: 15px;
+    visibility: hidden;
+}
+.tripletrouble {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Burning_Yellow_Sunset.jpg");
+    width: 100%;
+    height: 300px;
+}
+#art {
+    background: #FF847C; 
+    text-align: center;
+    border: 2px solid black;
+    color: #2A363B;
+}
+#art img {
+    width: 90%;
+    height: 200px;
+}
+
+footer {
+    border: 2px solid #2A363B;
+    background-color: #14B2A1;
+    text-align: center; 
+}
+
+footer p {
+    color: white;
+}
+
+footer img {
+    width: 90%;
+    height: 90%;
+    margin-bottom: 0;
+}
+
+#bar {
+    margin-top: 0;
+    background-color: #2A363B;
+    color: white;
+    height: 50px;
+}
+
+p   {
+    color: #2A363B;
+}
+
+
