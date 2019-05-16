@@ -56,17 +56,18 @@ main h2 {
     text-align: center;
 }
 
-#flex {
-    display: block;
+#reallyflex {
+    width: 30%;
+    height: 30%;
+    background-color: #14B2A1;
+    color: #E84A5F
+    
 }
 
-.tripletrouble article {
+#flex {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7c/SandiaMtnNM.jpg");
     width: 100%;
     height: 300px;
-    background-color: #14B2A1;
-    color: #E84A5F;
-   
 }
 hr {
     visibility: hidden;
