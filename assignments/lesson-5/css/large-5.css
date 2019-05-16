@@ -60,7 +60,7 @@ main h2 {
     grid-column: stretch;
 }
 
-#doubletrouble {
+.tripletrouble article {
     float: left;
     width: 30%;
     background-color: #14B2A1;
@@ -74,6 +74,7 @@ hr {
     width: 100%;
     /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Burning_Yellow_Sunset.jpg");*/
 }
+
 #art {
     background: #FF847C; 
     text-align: center;
