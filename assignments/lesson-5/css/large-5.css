@@ -56,13 +56,13 @@ main h2 {
     text-align: center;
 }
 
-.tripletrouble {
+#flex {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
 }
 
 .tripletrouble article {
-    float: left;
+    order: -1;
     width: 30%;
     height: 30%;
     background-color: #14B2A1;
