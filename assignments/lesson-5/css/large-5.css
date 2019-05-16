@@ -71,7 +71,7 @@ hr {
     visibility: hidden;
 }
 .tripletrouble img {
-    width: 3fr;
+    width: 100%;
     /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Burning_Yellow_Sunset.jpg");*/
 }
 #art {
