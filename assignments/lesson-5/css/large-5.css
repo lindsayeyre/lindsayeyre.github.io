@@ -59,8 +59,9 @@ main h2 {
 }
 
 #trouble {
-    display: flex;
-    flex: 100%;
+    height: auto; 
+    max-width:100%;
+    display:block;
 }
 
 #doubletrouble {
