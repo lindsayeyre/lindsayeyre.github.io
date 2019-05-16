@@ -59,7 +59,7 @@ main h2 {
 }
 
 .trouble {
-    grid-column: span 2;
+    width: 500px;
 }
 #doubletrouble {
     float: left;
