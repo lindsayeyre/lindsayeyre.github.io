@@ -27,8 +27,8 @@ header img {
    float: left;
    margin-left: 10%;
    margin-top: 10%; 
-   width: 25%;
-   grid-row: span 1;
+   width: 5%;
+   height: 5%;
 }
 
 header nav {
