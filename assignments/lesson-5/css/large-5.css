@@ -59,7 +59,7 @@ main h2 {
 }
 
 #trouble {
-    width: 100%;
+    grid-column:span stretch;
 }
 
 #doubletrouble {
