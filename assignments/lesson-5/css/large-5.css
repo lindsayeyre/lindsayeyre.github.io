@@ -60,6 +60,9 @@ main h2 {
     grid-column: stretch;
 }
 
+.tripletrouble {
+    display: block;
+}
 .tripletrouble article {
     float: left;
     width: 30%;
