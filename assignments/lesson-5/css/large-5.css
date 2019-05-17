@@ -1,8 +1,6 @@
 body {  
-    display: grid;
     background-color: #fecea8;
     font-family: fantasy;
-    gap: 0;
 }
 
 ul {
