@@ -99,10 +99,17 @@ main h2 {
     border: 2px solid black;
     margin-left: 10%;
     margin-right: 10%;
+    height: 150px;
+}
+
+.fivedaysection h2 {
+    display: inline-block;
+    text-align: center;
 }
 #five-day-forecast {
     margin-left: 35%; 
     width: 30%;
+    height: 80%;
 }
 
 
