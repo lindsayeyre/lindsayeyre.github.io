@@ -92,10 +92,13 @@ main h2 {
     height: 300px;
     margin-left: 10%;
     margin-right: 10%;
+    border: 2px solid black;
 }
 
 .fivedaysection {
     border: 2px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 #five-day-forecast {
     margin-left: 35%; 
