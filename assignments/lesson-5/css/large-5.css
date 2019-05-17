@@ -185,13 +185,13 @@ footer {
     margin-bottom: 0;
     margin-top: -15px;
     background-color: #2A363B;
-    color: white;
     height: 50px;
     text-align: center; 
 }
 
 #footerbar {
     padding-top: 10px;
+    color: white;
 }
 
 p   {
