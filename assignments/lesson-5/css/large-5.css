@@ -44,6 +44,8 @@ header h2 {
 }
 
 .current-conditions {
+    width: 50%;
+    height: 50%;
     color: #2A363B;
     font-size: 1em;
     border: 10px solid #2A363B;
