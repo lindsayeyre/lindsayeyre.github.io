@@ -87,7 +87,7 @@ main h2 {
 #flex {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7c/SandiaMtnNM.jpg");
     width: 100%;
-    height: 300px;
+    height: auto;
 }
 hr {
     visibility: hidden;
