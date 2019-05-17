@@ -85,11 +85,11 @@ main h2 {
 }
 
 #flex {
-    display:flex;
-    justify-content: center;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7c/SandiaMtnNM.jpg");
     width: 80%;
     height: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 hr {
     visibility: hidden;
