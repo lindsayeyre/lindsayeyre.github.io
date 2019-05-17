@@ -59,7 +59,7 @@ header h2 {
 }
 
 #menu {
-    padding: 0;
+    padding: -5%;
     text-align: center;
     border: 10px solid #E84A5F;
 }
