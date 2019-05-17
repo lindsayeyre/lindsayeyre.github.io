@@ -95,9 +95,8 @@ main h2 {
 }
 
 #five-day-forecast {
-    display:flex;
-    justify-content: center;
-    width: 10%;
+    margin-left: 35%; 
+    width: 30%;
 }
 hr {
     visibility: hidden;
