@@ -50,8 +50,9 @@ header h2 {
     font-size: 1em;
     border: 10px solid #2A363B;
     text-align: center; 
-    justify-content: center;
-    align-content: center;
+    margin-top: 10%;
+    justify-items: center;
+    align-items: center;
     
 }
 
