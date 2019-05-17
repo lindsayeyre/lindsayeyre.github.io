@@ -99,6 +99,7 @@ main h2 {
     border: 2px solid black;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 3%;
     height: 200%;
 }
 
@@ -121,6 +122,7 @@ main h2 {
     width: 80%;
     margin-left: 10%;
     height: 90%;
+    margin-top: 3%;
 }
 
 
@@ -154,25 +156,42 @@ main h2 {
 }
 
 footer {
-    display: flex;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
     border: 2px solid #2A363B;
     background-color: #14B2A1;
-    text-align: center; 
 }
 
-footer p {
-    justify-content: flex-end;
+.theend {
+    display: flex;
+    align-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 3%;
+}
+ #address {
+    margin-left: 9%;
+    margin-right: 8%;
+    margin-top: 10%;
     color: white;
 }
 
-footer img {
-    justify-content: flex-start;
+.map {
+    /*justify-content: flex-start;*/
 }
 
 #bar {
-    align-items: flex-end;
+    margin-bottom: 0;
+    margin-top: -15px;
     background-color: #2A363B;
     color: white;
+    height: 50px;
+    text-align: center; 
+}
+
+#footerbar {
+    padding-top: 10px;
 }
 
 p   {
