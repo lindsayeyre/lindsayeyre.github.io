@@ -99,17 +99,17 @@ main h2 {
     border: 2px solid black;
     margin-left: 10%;
     margin-right: 10%;
-    height: 150px;
+    height: 200%;
 }
 
-.fivedaysection h2 {
-    display: inline-block;
+.fivedaysection h3 {
+    color: #E84A5F;
     text-align: center;
 }
 #five-day-forecast {
     margin-left: 35%; 
     width: 30%;
-    height: 80%;
+    height: 90%;
 }
 
 
@@ -120,11 +120,13 @@ main h2 {
     color: #2A363B;
     width: 80%;
     margin-left: 10%;
+    height: 90%;
 }
+
 
 #article-title {
     text-align: left;
-    margin-bottom: 0;
+    margin-bottom: -3%;
     color: #2A363B;
     font-size: 40px;
 }
@@ -134,31 +136,41 @@ main h2 {
     margin-bottom: 0;
     color: #2A363B;
 }
+
+#article-text {
+    text-align: left;
+}
 .floater {
-    text-align: center;
+    text-align: left;
+    margin-left: 5%;
 }
 .art img {
     float: right;
+    margin-right: 2%;
+    margin-top:3%;
+    visibility: visible;
     width: 30%;
     height: 25%;
 }
 
 footer {
+    display: flex;
     border: 2px solid #2A363B;
     background-color: #14B2A1;
     text-align: center; 
 }
 
 footer p {
+    justify-content: flex-end;
     color: white;
 }
 
 footer img {
-   
+    justify-content: flex-start;
 }
 
 #bar {
-    
+    align-items: flex-end;
     background-color: #2A363B;
     color: white;
 }
