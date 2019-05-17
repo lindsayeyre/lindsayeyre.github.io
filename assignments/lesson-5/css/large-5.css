@@ -94,31 +94,43 @@ main h2 {
     margin-right: 10%;
 }
 
+.fivedaysection {
+    border: 2px solid black;
+}
 #five-day-forecast {
     margin-left: 35%; 
     width: 30%;
 }
-hr {
-    visibility: hidden;
-}
-/*.tripletrouble img {
-    order: -1;
-    width: 100%;*/
-    /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Burning_Yellow_Sunset.jpg");*/
-/*}*/
+
 
 .art {
+    display: flex;
     background: #FF847C; 
     border: 2px solid black;
     color: #2A363B;
     width: 80%;
+    margin-left: 10%;
 }
 
+#article-title {
+    text-align: left;
+    margin-bottom: 0;
+    color: #2A363B;
+    font-size: 40px;
+}
+
+#by-author {
+    text-align: left;
+    margin-bottom: 0;
+    color: #2A363B;
+}
 .floater {
     text-align: center;
 }
 .art img {
-    width: 20%;
+    float: right;
+    width: 30%;
+    height: 25%;
 }
 
 footer {
