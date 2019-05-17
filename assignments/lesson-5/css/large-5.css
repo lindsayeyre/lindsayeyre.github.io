@@ -12,6 +12,7 @@ ul {
 
 li {
     display: inline;
+    padding-right: 10%;
 }
 
 a {
