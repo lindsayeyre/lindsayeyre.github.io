@@ -275,6 +275,10 @@ header h2 {
     text-align: center;
 }
 
+.hideme {
+    display: none;
+}
+
 main h1 {
     color: #2A363B;
     font-size: 40px;
