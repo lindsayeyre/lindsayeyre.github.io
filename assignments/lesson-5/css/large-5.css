@@ -20,6 +20,25 @@ a {
     color: white;
 }
 
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
 header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -68,6 +87,8 @@ header h2 {
     text-align: center;
     border: 10px solid #E84A5F;
 }
+
+#menu li:first-child { display: none;	}
 
 main h2 {
     color: #2A363B;
