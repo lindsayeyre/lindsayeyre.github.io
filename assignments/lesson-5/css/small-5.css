@@ -356,7 +356,7 @@ main h2 {
     margin-left: 5%;
 }
 .art img {
-    float: right;
+    align-content: flex-end;
     margin-right: 2%;
     margin-top:3%;
     visibility: visible;
