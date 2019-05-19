@@ -51,7 +51,9 @@ header h2 {
 #menu {   
     width: 100%;
     margin-top: -5%;
+    background-color:#FF847C;
     text-align: center;
+    border: 10px solid #E84A5F;
 }
 
 .hideme {
