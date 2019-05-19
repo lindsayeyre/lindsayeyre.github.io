@@ -288,7 +288,7 @@ header h2 {
 
 main h2 {
     color: #2A363B;
-    font-size: 40px;
+    font-size: 20%;
     text-align: center;
 }
 
@@ -361,36 +361,6 @@ main h2 {
     width: 30%;
     height: 25%;
 }
-/*#doubletrouble {
-    background-color: #14B2A1;
-    color: ghostwhite;
-    width: 75%;
-    height: 60%;
-    padding-top:1px;
-    padding-left:10px;
-    /* margin-left: 25px; */
-    /*
-}
-hr {
-    height: 15px;
-    visibility: hidden;
-}
-.tripletrouble {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Burning_Yellow_Sunset.jpg");
-    width: 100%;
-    height: 300px;
-}
-#art {
-    background: #FF847C; 
-    text-align: center;
-    border: 2px solid black;
-    color: #2A363B;
-}
-#art img {
-    width: 90%;
-    height: 200px;
-}
-*/
 
 footer {
     border: 2px solid #2A363B;
