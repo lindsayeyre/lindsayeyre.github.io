@@ -305,7 +305,7 @@ main h2 {
 
 #flex {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7c/SandiaMtnNM.jpg");
-    width: 50%;
+    width: 80%;
     height: 200px;
     margin-left: 10%;
     margin-right: 10%;
@@ -337,7 +337,7 @@ main h2 {
     text-align: left;
     margin-bottom: -3%;
     color: #2A363B;
-    font-size: 40px;
+    font-size: 50%;
 }
 
 #by-author {
