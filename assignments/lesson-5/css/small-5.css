@@ -359,8 +359,8 @@ main h2 {
     margin-right: 2%;
     margin-top:3%;
     visibility: visible;
-    width: 30%;
-    height: 25%;
+    width: 100%;
+    height: 50%;
 }
 
 footer {
