@@ -322,7 +322,7 @@ main h2 {
 }
 
 .art {
-    display: flex;
+    /*display: flex;*/
     background: #FF847C; 
     border: 2px solid black;
     color: #2A363B;
@@ -356,7 +356,6 @@ main h2 {
     margin-left: 5%;
 }
 .art img {
-    justify-content: flex-end;
     margin-right: 2%;
     margin-top:3%;
     visibility: visible;
