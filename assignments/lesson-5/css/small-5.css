@@ -48,10 +48,9 @@ header h2 {
 .current-conditions {
     display: none;
 }
-#menu {
-    /* border-top: 0; */
-    margin-top: 0;
-    /* padding-top: 0; */
+#menu {   
+    width: 100%;
+    margin-top: -5%;
     text-align: center;
 }
 
