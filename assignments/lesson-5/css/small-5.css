@@ -293,6 +293,15 @@ main h1 {
     text-align: center;
 }
 
+.fivedaysection {
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    height: 200%;
+    display: none;
+}
+
 #trouble {
     width: 1100px;
     height: 450px;
