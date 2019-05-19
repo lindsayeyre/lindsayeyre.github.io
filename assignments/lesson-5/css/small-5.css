@@ -321,7 +321,47 @@ main h2 {
     height: 450px;
 }
 
-#doubletrouble {
+.art {
+    display: flex;
+    background: #FF847C; 
+    border: 2px solid black;
+    color: #2A363B;
+    width: 80%;
+    margin-left: 10%;
+    height: 90%;
+    margin-top: 3%;
+}
+
+
+#article-title {
+    text-align: left;
+    margin-bottom: -3%;
+    color: #2A363B;
+    font-size: 40px;
+}
+
+#by-author {
+    text-align: left;
+    margin-bottom: 0;
+    color: #2A363B;
+}
+
+#article-text {
+    text-align: left;
+}
+.floater {
+    text-align: left;
+    margin-left: 5%;
+}
+.art img {
+    float: right;
+    margin-right: 2%;
+    margin-top:3%;
+    visibility: visible;
+    width: 30%;
+    height: 25%;
+}
+/*#doubletrouble {
     background-color: #14B2A1;
     color: ghostwhite;
     width: 75%;
@@ -329,6 +369,7 @@ main h2 {
     padding-top:1px;
     padding-left:10px;
     /* margin-left: 25px; */
+    /*
 }
 hr {
     height: 15px;
@@ -349,6 +390,7 @@ hr {
     width: 90%;
     height: 200px;
 }
+*/
 
 footer {
     border: 2px solid #2A363B;
