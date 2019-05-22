@@ -1,6 +1,24 @@
-body {
-    background-color: #fecea8;
-    font-family: fantasy;
+@font-face{
+    font-family:"Recoleta W05 Regular DEMO";
+    src:url("Fonts/5674651/253f8cf2-28ba-4741-a5c8-197549f911f0.eot?#iefix");
+    src:url("Fonts/5674651/253f8cf2-28ba-4741-a5c8-197549f911f0.eot?#iefix") format("eot"),url("Fonts/5674651/d2c309e0-9292-439c-972d-5258d8907457.woff2") format("woff2"),url("Fonts/5674651/97013165-cdbf-47ee-a207-4c5fc27d1aa0.woff") format("woff"),url("Fonts/5674651/14bea90f-1d2c-4bc9-a3f6-f3337504a51a.ttf") format("truetype");
+}
+
+@font-face{
+    font-family:"Campton W05 Light DEMO";
+    src:url("Fonts/5695472/005a6a75-2760-4811-b65a-21339b556872.eot?#iefix");
+    src:url("Fonts/5695472/005a6a75-2760-4811-b65a-21339b556872.eot?#iefix") format("eot"),url("Fonts/5695472/424eb7b0-1d90-4ac5-b4f6-483051df992f.woff2") format("woff2"),url("Fonts/5695472/37173096-2a51-4620-a2fe-48d2ae795800.woff") format("woff"),url("Fonts/5695472/750b3bfd-5826-4eba-8fab-c2765faa082c.ttf") format("truetype");
+}
+
+@font-face{
+    font-family:"Aubaine W03 UltraLight";
+    src:url("Fonts/1583494/aac48f05-3ccd-49c7-a577-2691eefd9e5b.eot?#iefix");
+    src:url("Fonts/1583494/aac48f05-3ccd-49c7-a577-2691eefd9e5b.eot?#iefix") format("eot"),url("Fonts/1583494/84475149-9b1b-43a9-8613-43115c0791e8.woff2") format("woff2"),url("Fonts/1583494/2c3078c3-071e-4d6a-bdc4-b7a797c4961a.woff") format("woff"),url("Fonts/1583494/9d23633d-f15a-4374-b9ff-97468ed69d98.ttf") format("truetype");
+}
+
+body {  
+    background-color: ivory;
+    font-family: "Aubaine W03 UltraLight", Charcoal, Impact, sans-serif;
 }
 
 ul {
@@ -36,13 +54,15 @@ header h1 {
     color: #2A363B;
     text-align: center;
     margin-left: 10%;
-    font-family: fantasy;
+    font-family: "Recoleta W05 Regular DEMO", Bookman, Garamond, serif;
 }
 header h2 {
     font-size: 0.5em;
     color: #fecea8;
     text-align: center;
     margin-left: 10%;
+    font-family: "Aubaine W03 UltraLight", Charcoal, Impact, sans-serif;
+}
 }
 
 .current-conditions {
