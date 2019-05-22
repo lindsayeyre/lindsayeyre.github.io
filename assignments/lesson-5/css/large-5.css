@@ -12,7 +12,7 @@ ul {
 
 li {
     display: inline;
-    padding-right: 8%;
+    padding: 4%;
 }
 
 a {
@@ -38,6 +38,13 @@ a:link {
   a:active {
     color: blue;
   }
+
+    .active {
+        background: #2A363B;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        color: white;
+      }
 
 header {
     display: grid;
