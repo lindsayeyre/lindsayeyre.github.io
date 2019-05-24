@@ -135,10 +135,11 @@ main h2 {
 
 #flex {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7c/SandiaMtnNM.jpg");
-    width: 80%;
-    height: 300px;
-    margin-left: 10%;
-    margin-right: 10%;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 400px;
+    margin-left: 15%;
+    margin-right: 15%;
     border: 2px solid black;
 }
 
