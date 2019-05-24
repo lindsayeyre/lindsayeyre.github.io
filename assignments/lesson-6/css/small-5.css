@@ -1,0 +1,201 @@
+@font-face{
+    font-family:"Recoleta W05 Regular DEMO";
+    src:url("Fonts/5674651/253f8cf2-28ba-4741-a5c8-197549f911f0.eot?#iefix");
+    src:url("Fonts/5674651/253f8cf2-28ba-4741-a5c8-197549f911f0.eot?#iefix") format("eot"),url("Fonts/5674651/d2c309e0-9292-439c-972d-5258d8907457.woff2") format("woff2"),url("Fonts/5674651/97013165-cdbf-47ee-a207-4c5fc27d1aa0.woff") format("woff"),url("Fonts/5674651/14bea90f-1d2c-4bc9-a3f6-f3337504a51a.ttf") format("truetype");
+}
+
+@font-face{
+    font-family:"Campton W05 Light DEMO";
+    src:url("Fonts/5695472/005a6a75-2760-4811-b65a-21339b556872.eot?#iefix");
+    src:url("Fonts/5695472/005a6a75-2760-4811-b65a-21339b556872.eot?#iefix") format("eot"),url("Fonts/5695472/424eb7b0-1d90-4ac5-b4f6-483051df992f.woff2") format("woff2"),url("Fonts/5695472/37173096-2a51-4620-a2fe-48d2ae795800.woff") format("woff"),url("Fonts/5695472/750b3bfd-5826-4eba-8fab-c2765faa082c.ttf") format("truetype");
+}
+
+@font-face{
+    font-family:"Aubaine W03 UltraLight";
+    src:url("Fonts/1583494/aac48f05-3ccd-49c7-a577-2691eefd9e5b.eot?#iefix");
+    src:url("Fonts/1583494/aac48f05-3ccd-49c7-a577-2691eefd9e5b.eot?#iefix") format("eot"),url("Fonts/1583494/84475149-9b1b-43a9-8613-43115c0791e8.woff2") format("woff2"),url("Fonts/1583494/2c3078c3-071e-4d6a-bdc4-b7a797c4961a.woff") format("woff"),url("Fonts/1583494/9d23633d-f15a-4374-b9ff-97468ed69d98.ttf") format("truetype");
+}
+
+body {  
+    background-color: ivory;
+    font-family: "Aubaine W03 UltraLight", Charcoal, Impact, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    background-color:#FF847C;
+    color: #2A363B;
+    margin: 10px;
+    display: block;
+    padding: 8px 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: inline-block;
+	width: 100%;
+	background-color: #14B2A1;
+}
+
+header img {
+    float: left;
+    width: 15%;
+    height: 15%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+header h1 {
+    font-size: 1em;
+    color: #2A363B;
+    text-align: center;
+    margin-left: 10%;
+    font-family: "Recoleta W05 Regular DEMO", Bookman, Garamond, serif;
+}
+header h2 {
+    font-size: 0.5em;
+    color: ivory;
+    text-align: center;
+    margin-left: 10%;
+    font-family: "Aubaine W03 UltraLight", Charcoal, Impact, sans-serif;
+}
+
+.current-conditions {
+    display: none;
+}
+#menu {   
+    width: 98%;
+    margin-top: 0%;
+    background-color:#FF847C;
+    text-align: center;
+    border: 2.5px solid #E84A5F;
+}
+
+.hideme {
+    display: none;
+}
+
+main h2 {
+    color: #2A363B;
+    font-size: 85%;
+    text-align: center;
+}
+
+#reallyflex {
+    background-color: #14B2A1;
+    color: ghostwhite;
+    width: 50%;
+    height: 98%;
+    padding-top:1px;
+    padding-left:10px; 
+    margin-top:5%;  
+    margin-left: 5%;
+}
+
+#reallyflex h4 {
+    font-size: 50%;
+}
+
+#reallyflex p {
+    font-size: 40%;
+}
+
+#flex {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7c/SandiaMtnNM.jpg");
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid black;
+}  
+
+.fivedaysection {
+    display: none;
+}
+
+#trouble {
+    width: 1100px;
+    height: 450px;
+}
+
+.art {
+    /*display: flex;*/
+    background: #FF847C; 
+    border: 2px solid black;
+    color: #2A363B;
+    width: 80%;
+    margin-left: 10%;
+    height: 90%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+#article-title {
+    text-align: left;
+    margin-bottom: -3%;
+    color: #2A363B;
+    font-size: 80%;
+}
+
+#by-author {
+    font-size: 60%;
+    text-align: left;
+    margin-bottom: 0;
+    color: #2A363B;
+}
+
+#article-text {
+    text-align: left;
+    font-size: 50%;
+}
+.floater {
+    text-align: left;
+    margin-left: 5%;
+}
+.art img {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    visibility: visible;
+    width: 90%;
+    height: 50%;
+}
+
+footer {
+    border: 2px solid #2A363B;
+    background-color: #14B2A1;
+    text-align: center; 
+}
+
+footer p {
+    color: white;
+    font-size: 75%;
+}
+
+footer img {
+    width: 90%;
+    height: 90%;
+    margin-bottom: 0;
+}
+
+#bar {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 0;
+    background-color: #2A363B;
+    color: white;
+    height: 50px;
+}
+
+p   {
+    color: #2A363B;
+}
+
+
+
