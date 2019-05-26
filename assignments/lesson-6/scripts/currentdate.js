@@ -1,3 +1,4 @@
+
 var today = new Date();
 var n = d.getDay();
 var dd = String(today.getDate()).padStart(2, '0');
@@ -5,11 +6,9 @@ var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 
 today = n + ',' + dd + mm + yyyy;
-var today4 = 'pie';
-
-function dude2() {
-    document.getElementById('output').innerHTML = today4;
-}
+document.getElementById('bar').innerHTML = today;
+var d = new Date();
+document.getElementById("demo").innerHTML = d.getTime();
 
 /*var curday = function(sp){
     today = new Date();
