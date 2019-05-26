@@ -83,9 +83,39 @@ main h2 {
     color: #2A363B;
     font-size: 85%;
     text-align: center;
+    font-family: avenir, sans-serif;
+}
+#flex {
+    display: flex;
+    width: 79.5%;
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid black;
+    overflow: hidden;
 }
 
+/*#reallyflex {
+    justify-content: flex-start;
+    background-color: #14B2A1;
+    height: 90%;
+    color: ghostwhite;
+    padding-top:1px;
+    padding-left:10px;
+    padding-right: 10px; 
+    margin-top:5%;  
+    margin-left: -15%;
+    margin-bottom: 50%;
+    margin-right: 20%;
+}*/
+
+#fleximage {
+    width: 20%;
+    /*margin-right: 50%;
+    margin-left: 50%;*/
+}
 #reallyflex {
+    justify-content: flex-start;
     background-color: #14B2A1;
     color: ghostwhite;
     width: 50%;
@@ -104,14 +134,14 @@ main h2 {
     font-size: 40%;
 }
 
-#flex {
+/*#flex {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7c/SandiaMtnNM.jpg");
     width: 80%;
     height: 200px;
     margin-left: 10%;
     margin-right: 10%;
     border: 2px solid black;
-}  
+} */ 
 
 .fivedaysection {
     display: none;

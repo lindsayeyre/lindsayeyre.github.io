@@ -82,7 +82,7 @@ header img {
 header h1 {
     font-size: 3em;
     color: #2A363B;
-    font-family: "Recoleta W05 Regular DEMO", Bookman, Garamond, serif;
+    font-family: Bookman;
     text-align: center;
     margin-top: 10%;
 }
@@ -91,7 +91,7 @@ header h2 {
     color: ivory;
     text-align: center;
     margin-top: -4%;
-    font-family: "Aubaine W03 UltraLight", Charcoal, Impact, sans-serif;
+    font-family: "Aubaine W03 UltraLight", Avenir, Impact, sans-serif;
 }
 
 .current-conditions {
@@ -122,25 +122,34 @@ main h2 {
     text-align: center;
 }
 
-#reallyflex {
-    background-color: #14B2A1;
-    color: ghostwhite;
-    width: 50%;
-    height: 50%;
-    padding-top:1px;
-    padding-left:10px; 
-    margin-top:5%;  
-    margin-left: 5%;
+#flex {
+    display: flex;
+    width: auto;
+    height: 446px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid black;
 }
 
-#flex {
-    background-image: url("franklin.jpg");
-    background-repeat: no-repeat;
-    width: 70%;
-    height: 400px;
-    margin-left: 15%;
-    margin-right: 15%;
-    border: 2px solid black;
+#reallyflex {
+    overflow: auto;
+    justify-content: flex-start;
+    background-color: #14B2A1;
+    height: 90%;
+    color: ghostwhite;
+    padding-top:1px;
+    padding-left:10px;
+    padding-right: 10px; 
+    margin-top:5%;  
+    margin-left: -90%;
+    margin-bottom: 50%;
+    margin-right: 20%;
+}
+
+#fleximage {
+    width: auto;
+    /*margin-right: 50%;
+    margin-left: 50%;*/
 }
 
 .fivedaysection {
