@@ -7,8 +7,7 @@ var yyyy = today.getFullYear();
 
 today = n + ',' + dd + mm + yyyy;
 document.getElementById('bar').innerHTML = today;
-var d = new Date();
-document.getElementById("demo").innerHTML = d.getTime();
+
 
 /*var curday = function(sp){
     today = new Date();
