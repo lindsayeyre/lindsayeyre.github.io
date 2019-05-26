@@ -5,9 +5,9 @@ var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 
 today = n + ',' + dd + mm + yyyy;
-today4 = 'pie';
+var today4 = 'pie';
 
-function dude() {
+function dude2() {
     document.getElementById('output').innerHTML = today4;
 }
 
