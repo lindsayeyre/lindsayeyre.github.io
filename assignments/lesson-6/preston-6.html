@@ -101,7 +101,20 @@
                             <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
                         </map>
                     </div>
-                    <div id="bar"></div>
+                    <!--<script>
+                            var today = new Date();
+                          var n = d.getDay();
+                          var dd = String(today.getDate()).padStart(2, '0');
+                          var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                          var yyyy = today.getFullYear();
+                          
+                          today = n + ',' + dd + mm + yyyy;
+                          
+                          function dude() {
+                            document.getElementById('bar').innerHTML = today;
+                          }
+                          </script>-->
+                      <button type="button" onclick="dude()">Dude</button>
             </footer>
             <script src="currentdate.js"></script>
         </body>

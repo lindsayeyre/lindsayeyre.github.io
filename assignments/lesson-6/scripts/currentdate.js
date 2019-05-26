@@ -1,4 +1,12 @@
 
+/*var today = new Date();
+var n = d.getDay();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = n + ',' + dd + mm + yyyy;
+document.getElementById('bar').innerHTML = today;*/
 var today = new Date();
 var n = d.getDay();
 var dd = String(today.getDate()).padStart(2, '0');
@@ -6,10 +14,13 @@ var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 
 today = n + ',' + dd + mm + yyyy;
-document.getElementById('bar').innerHTML = today;
+
+function dude() {
+  document.getElementById('bar').innerHTML = today;
+}
 
 
-/*var curday = function(sp){
+/*var curday = function(sp){/
     today = new Date();
     var dd = today.getDate();
     var mm = today.getMonth()+1; //As January is 0.
