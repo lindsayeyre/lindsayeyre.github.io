@@ -64,6 +64,15 @@ a:link {
         color: white;
       }
 
+    .navigation li:first-child { display: none;	}
+    .navigation {
+        background-color:#FF847C;
+        text-align: center;
+        border: 10px solid #E84A5F;
+        padding: 3%;
+        margin-top: -3%;
+    }
+
 header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -107,14 +116,6 @@ header h2 {
     align-items: center;
     
 }
-
-#menu {
-    background-color:#FF847C;
-    text-align: center;
-    border: 10px solid #E84A5F;
-}
-
-#menu li:first-child { display: none;	}
 
 main h2 {
     color: #2A363B;
